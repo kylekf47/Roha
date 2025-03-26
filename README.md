@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -96,6 +95,9 @@
     <a href="#burgers">🍔 Burgers</a> | 
     <a href="#pizzas">🍕 Pizzas</a> | 
     <a href="#juices">🥤 Juices & Drinks</a> | 
+    <a href="#fastfood">🍟 Fast Food</a> |
+    <a href="#hotdrinks">☕ Hot Drinks</a> |
+    <a href="#softdrinks">🥤 Soft Drinks</a> | 
     <a href="#contact">📍 Visit Us</a>
 </nav>
 
@@ -120,27 +122,6 @@
             <p>A signature burger with a unique blend of spices and premium toppings.</p>
             <p class="price">$7.99</p>
         </div>
-        <div class="card">
-            <img src="burger_image4.jpg" alt="Chicken Burger">
-            <h3>Chicken Burger</h3>
-            <p>Grilled chicken breast with fresh veggies and a creamy sauce.</p>
-            <p class="price">$5.99</p>
-        </div>
-        <div class="card">
-            <img src="burger_image5.jpg" alt="Veggie Burger">
-            <h3>Veggie Burger</h3>
-            <p>Made with a delicious veggie patty, fresh veggies, and a zesty sauce.</p>
-            <p class="price">$5.49</p>
-        </div>
-        <div class="card">
-            <img src="burger_image6.jpg" alt="Double Patty Burger">
-            <h3>Double Patty Burger</h3>
-            <p>For the true burger lovers – two beef patties with extra cheese.</p>
-            <p class="price">$8.99</p>
-        </div>
-    </div>
-    <div class="back-to-top">
-        <a href="#top">🔝 Back to Top</a>
     </div>
 </section>
 
@@ -165,27 +146,6 @@
             <p>Tender BBQ chicken, onions, and a smoky sauce for an amazing flavor.</p>
             <p class="price">$11.99</p>
         </div>
-        <div class="card">
-            <img src="pizza_image4.jpg" alt="Roha Special Pizza">
-            <h3>Roha Special Pizza</h3>
-            <p>Our signature pizza with a mix of meats, cheese, and special herbs.</p>
-            <p class="price">$12.99</p>
-        </div>
-        <div class="card">
-            <img src="pizza_image5.jpg" alt="Veggie Delight Pizza">
-            <h3>Veggie Delight Pizza</h3>
-            <p>A perfect mix of vegetables on a tomato base with mozzarella cheese.</p>
-            <p class="price">$9.99</p>
-        </div>
-        <div class="card">
-            <img src="pizza_image6.jpg" alt="Meat Lovers Pizza">
-            <h3>Meat Lovers Pizza</h3>
-            <p>Loaded with all your favorite meats, including pepperoni, sausage, and bacon.</p>
-            <p class="price">$13.99</p>
-        </div>
-    </div>
-    <div class="back-to-top">
-        <a href="#top">🔝 Back to Top</a>
     </div>
 </section>
 
@@ -210,23 +170,88 @@
             <p>A creamy blend of fresh avocados and a touch of sweetness.</p>
             <p class="price">$4.99</p>
         </div>
+    </div>
+</section>
+
+<!-- Fast Food Section -->
+<section id="fastfood">
+    <h2>🍟 FAST FOOD</h2>
+    <div class="card-container">
         <div class="card">
-            <img src="juice_image4.jpg" alt="Mixed Fruit Juice">
-            <h3>Mixed Fruit Juice</h3>
-            <p>A delicious mix of seasonal fruits in a refreshing juice.</p>
-            <p class="price">$5.49</p>
+            <img src="fastfood_image1.jpg" alt="French Fries">
+            <h3>French Fries</h3>
+            <p>Crispy golden fries, served with a side of ketchup or your favorite dip.</p>
+            <p class="price">$2.99</p>
         </div>
         <div class="card">
-            <img src="juice_image5.jpg" alt="Soft Drinks">
-            <h3>Soft Drinks</h3>
-            <p>Choose from a variety of popular soft drinks.</p>
+            <img src="fastfood_image2.jpg" alt="Chicken Nuggets">
+            <h3>Chicken Nuggets</h3>
+            <p>Juicy, tender chicken nuggets served with your choice of dipping sauce.</p>
+            <p class="price">$4.49</p>
+        </div>
+        <div class="card">
+            <img src="fastfood_image3.jpg" alt="Onion Rings">
+            <h3>Onion Rings</h3>
+            <p>Crispy, golden onion rings served with a tangy dipping sauce.</p>
+            <p class="price">$3.99</p>
+        </div>
+    </div>
+</section>
+
+<!-- Hot Drinks Section -->
+<section id="hotdrinks">
+    <h2>☕ HOT DRINKS</h2>
+    <div class="card-container">
+        <div class="card">
+            <img src="hotdrink_image1.jpg" alt="Coffee">
+            <h3>Coffee</h3>
+            <p>Freshly brewed coffee, served hot to give you the perfect start to your day.</p>
+            <p class="price">$2.49</p>
+        </div>
+        <div class="card">
+            <img src="hotdrink_image2.jpg" alt="Hot Chocolate">
+            <h3>Hot Chocolate</h3>
+            <p>A rich, creamy hot chocolate with a dash of vanilla and whipped cream.</p>
+            <p class="price">$3.49</p>
+        </div>
+        <div class="card">
+            <img src="hotdrink_image3.jpg" alt="Tea">
+            <h3>Tea</h3>
+            <p>Relaxing hot tea, available in various flavors like green, black, and herbal.</p>
+            <p class="price">$1.99</p>
+        </div>
+    </div>
+</section>
+
+<!-- Soft Drinks Section -->
+<section id="softdrinks">
+    <h2>🥤 SOFT DRINKS</h2>
+    <div class="card-container">
+        <div class="card">
+            <img src="softdrink_image1.jpg" alt="Coca-Cola">
+            <h3>Coca-Cola</h3>
+            <p>Refreshing Coca-Cola, served ice-cold for the perfect refreshment.</p>
             <p class="price">$1.99</p>
         </div>
         <div class="card">
-            <img src="juice_image6.jpg" alt="Bottled Water">
-            <h3>Bottled Water</h3>
-            <p>Stay hydrated with our refreshing bottled water.</p>
-            <p class="price">$0.99</p>
+            <img src="softdrink_image2.jpg" alt="Sprite">
+            <h3>Sprite</h3>
+            <p>Crisp and refreshing lemon-lime soda, served ice-cold.</p>
+            <p class="price">$1.99</p>
         </div>
-  
+        <div class="card">
+            <img src="softdrink_image3.jpg" alt="Fanta">
+            <h3>Fanta</h3>
+            <p>Fruity and refreshing Fanta, available in various flavors like orange and grape.</p>
+            <p class="price">$1.99</p>
+        </div>
+    </div>
+</section>
 
+<section id="contact">
+    <h2>📍 Visit Us</h2>
+    <p>Come visit us at our convenient location!</p>
+</section>
+
+</body>
+</html>
